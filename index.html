@@ -1,0 +1,351 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="/js/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="stylesheet" href="/vendor/Bs/style.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar nav-css navbar-expand-lg " id="navbar_top">
+        <div class="container-fluid ">
+          <a class="navbar-brand nav-brand p-3" href="#">Portfolio</a>
+          <button class="navbar-toggler navbar-toggler-css me-sm-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="uil uil-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item px-3">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#contact">Contact Me</a>
+              </li>             
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="my-5 mx-sm-5" id="home">
+        <div class="row p-3" >
+          <div class="col-lg-5 col-sm-12 my-5 text-center">
+            <div class="display-5 ">Helllo,</div>
+                      <div class="display-4 my-3"><span class="display-6">I'am</span> 
+                        <span class="display-4 home-name p-2 ">Panneer</span>
+                      </div>
+                      <div class="h2">Web Developer</div>
+                      <div class="lead">High Level Experience in Web design and development knowledge and Producing Quality work</div>
+                       <div class="mt-4">
+                           <a href="#contact" class="btn action_btn">Contact Me
+                               <i class="uil uil-message"></i></a></div>
+          </div>
+          <div class="col-lg-7 col-sm-12 my-5 justify-center">
+            <img src="/images/Home.png" class="img-fluid img-responsives" alt="Home-Image">
+
+          </div>
+        </div>
+    </section>
+    <section class="my-5 mx-sm-5" id="about">
+      <div class="title text-center">
+        <h1 class="main-title">About Me</h1>
+        <small class="sub-title">My Introduction</small>
+      </div>
+      <div class="row p-3  " >
+        <div class="col-lg-7 col-sm-12 justify-center">
+          <img src="/images/about.png" class="img-fluid img-responsives" alt="Home-Image">
+          
+        </div>
+        <div class="col-lg-5 col-sm-12  ">
+          <div class="mt-5 p-3">
+              <h3 class="highlight my-4" >I'm a Technically Savvy Web Developer</h3>
+              <p>An Accomplished Individual with a strong background in JavaScript, HTML ,CSS and bootstrap. I strongly believes in the power of the Internet.<br/> <br/> I'm a hardworking person and can able to handle working under pressure as well as communicate and collaborate seamlessly in a Teamwork Environment.</p>
+              <div class="text-center">
+                <a href="/images/Cv/CV_2021-08-25-105825.pdf" download="CV" class="btn action_btn ">Get CV<i class="uil uil-download-alt"></i></a>
+
+              </div>
+            </div>
+            
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5 mx-sm-5" id="projects">
+          <div class="title text-center">
+              <h1 class="main-title">Projects</h1>
+              <small class="sub-title">What I Have Done</small>
+          </div>
+          <div class="button-group my-3">
+            <button type="button" class="active" data-filter="*">All</button>
+            <button type="button" data-filter=".JavaScript">JavaScript</button>
+            <button type="button" data-filter =".react">React JS</button>
+          </div>
+      </div>
+      <div class="row grid">
+        <div class="col-lg-4 col-md-6 col-sm-12 my-4 JavaScript">
+          <div class="item-img">
+              <img src="/images/portfolio/mapty (1).png" alt="Portfolio-1" class="img-responsive rounded w-100">
+              <div class="item-img-overlay">
+                    <h4 >Mapty</h4>
+                    <span >HTML5 | CSS | JavaScript</span>
+                        <a href="https://panneer-maptify.netlify.app/" class="icon" target="blank">
+                            <i class="uil uil-arrow-circle-right"></i></a>
+                </div>   
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 my-4 react">
+            <div class="item-img">
+                <img src="/images/portfolio/movie2.png" alt="Portfolio-1" class="img-responsive rounded w-100">
+                <div class="item-img-overlay">
+                      <h4 >Movie DB</h4>
+                      <span >React JS | Styled Components |</span>
+                          <a href="https://my-react-cinemas.netlify.app/" class="icon" target="blank">
+                              <i class="uil uil-arrow-circle-right"></i></a>
+                  </div>   
+              </div>
+          </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 my-4 JavaScript">
+            <div class="item-img">
+                <img src="/images/portfolio/product2.png" alt="Portfolio-1" class="img-responsive rounded w-100">
+                <div class="item-img-overlay">
+                      <h4 >Product Website</h4>
+                      <span >HTML5 | CSS | JavaScript</span>
+                          <a href="https://panneer-bankist-product-site.netlify.app/" class="icon" target="blank">
+                              <i class="uil uil-arrow-circle-right"></i></a>
+                  </div>   
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 my-4 JavaScript">
+            <div class="item-img">
+                <img src="/images/portfolio/bank.png" alt="Portfolio-1" class="img-responsive rounded w-100">
+                <div class="item-img-overlay">
+                      <h4 >Bank Proto</h4>
+                      <span >HTML5 | CSS | JavaScript</span>
+                          <a href="https://panneer-bank.netlify.app/" class="icon" target="blank">
+                              <i class="uil uil-arrow-circle-right"></i></a>
+                  </div>   
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 my-4 react">
+            <div class="item-img">
+                <img src="/images/portfolio/amazon3.png" alt="Portfolio-1" class="img-responsive rounded w-100">
+                <div class="item-img-overlay">
+                      <h4 >Amazon Clone</h4>
+                      <span >React JS | Firebase |</span>
+                          <a href="https://clone-598b5.web.app/" class="icon" target="blank">
+                              <i class="uil uil-arrow-circle-right"></i></a>
+                  </div>   
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 my-4 JavaScript">
+            <div class="item-img">
+                <img src="/images/portfolio/Portfolio.png" alt="Portfolio-1" class="img-responsive rounded w-100">
+                <div class="item-img-overlay">
+                      <h4 >Portfolio website</h4>
+                      <span >HTML5 | CSS | JavaScript</span>
+                          <a href="https://panneer-portfolio.netlify.app/" class="icon" target="blank">
+                              <i class="uil uil-arrow-circle-right"></i></a>
+                  </div>   
+              </div>
+          </div>                           
+ </div> 
+
+    </div>
+
+    </section>
+
+    <section class="my-5 mx-sm-5" id="skills">
+    <div class="title text-center">
+      <h1 class="main-title">Skills</h1>
+      <small class="sub-title">What I Know</small>
+    </div>
+      <div class="row p-3">
+        <div class="col-lg-7 col-sm-12 justify-center">
+          <img src="/images/Skills.png" class="img-fluid img-responsives" alt="Home-Image">
+          
+        </div>
+        <div class="col-lg-5 col-sm-12  ">
+          <div class="mt-3">
+            
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item my-3">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Front-End Skills
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="front-end">
+                        <div class="bars">
+                          <div class="info">
+                              <span>HTML</span>
+                              <span>90%</span>
+                          </div>
+                          <div class="line html"></div>
+                      </div>
+                      <div class="bars">
+                          <div class="info">
+                              <span>CSS</span>
+                              <span>85%</span>
+                          </div>
+                          <div class="line css"></div>
+                      </div>
+                      <div class="bars">
+                          <div class="info">
+                              <span>JavaScript</span>
+                              <span>88%</span>
+                          </div>
+                          <div class="line js"></div>
+                      </div>
+                      <div class="bars">
+                          <div class="info">
+                              <span>Bootstrap</span>
+                              <span>70%</span>
+                          </div>
+                          <div class="line bootstrap"></div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item my-3">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Back-End Skills
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="back-end">
+                        <div class="bars">
+                          <div class="info">
+                              <span>PHP</span>
+                              <span>80%</span>
+                          </div>
+                          <div class="line php"></div>
+                      </div>
+                      <div class="bars">
+                          <div class="info">
+                              <span>MySql</span>
+                              <span>80%</span>
+                          </div>
+                          <div class="line mysql"></div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item my-3">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Other Skills
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="other-skills">
+                        <div class="bars">
+                          <div class="info">
+                              <span>Digital marketing</span>
+                              <span>70%</span>
+                          </div>
+                          <div class="line dm"></div>
+                      </div>
+          
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>       
+        </div>       
+      </div>
+  </div>
+    </section>
+    <section class="my-5 mx-sm-5" id="contact">
+    <div class="title text-center">
+      <h1 class="main-title">Contact Me</h1>
+      <small class="sub-title">Get In Touch</small>
+    </div>
+    <div class="row p-3 " >
+      <div class="col-lg-6 col-sm-12 justify-center">
+        <div class="contact-left p-3">
+          <div class="d-flex justify-center align-items-center my-5">
+            <div class="mx-3 contact_icon">
+              <i class="uil uil-phone"></i>
+            </div>
+            <div class="Contact_text mx-3">
+              <h3>Call Me</h3>
+              <span>9487843766</span>
+            </div>
+          </div>
+          <div class="d-flex justify-center align-items-center my-5">
+            <div class="mx-3 contact_icon">
+              <i class="uil uil-envelope-edit"></i>
+            </div>
+            <div class="Contact_text mx-3">
+              <h3>Email</h3>
+              <span>rpanneerselvam5599@gmail.com</span>
+            </div>
+          </div> 
+          <div class="d-flex justify-center align-items-center my-5">
+            <div class="mx-3 contact_icon">
+              <i class="uil uil-location-point"></i>
+            </div>
+            <div class="Contact_text mx-3">
+              <h3>Location</h3>
+              <span>Salem, India</span>
+            </div>
+          </div> 
+        </div>       
+      </div>
+      <div class="col-lg-6 col-sm-12  ">
+            <form action="#" class="d-flex flex-column p-5">
+                <div class="contact-input mb-3">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="contact-input my-3">
+                    <label for="name">Email</label>
+                    <input type="email" id="name">
+                </div>
+                <div class="contact-input my-3">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="" rows="5" ></textarea>
+                </div>
+                <div class="mt-3 text-center">
+                    <a href="#" class="btn action_btn">Send Message <i class="uil uil-message"></i></a>
+                </div>
+            </form>
+          
+      </div>
+    </div>
+  </section>
+  <footer>
+    <span>
+      Created By Panneer
+      | <i class="uil uil-copyright"></i>2021 All Copyrights Reserved.
+    </span>
+  </footer>
+
+  <script src="/vendor/Bs/jquery-3.6.0.min.js"></script>
+
+  <script src="/vendor/isotope.pkgd.min.js"></script>
+<script src="/vendor/Bs/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
